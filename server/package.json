@@ -1,0 +1,26 @@
+{
+  "name": "zephyrmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulgeorge92/ZephyrMusic.git"
+  },
+  "author": "Paul George",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulgeorge92/ZephyrMusic/issues"
+  },
+  "homepage": "https://github.com/paulgeorge92/ZephyrMusic#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dropbox": "^7.3.1",
+    "express": "^4.17.1",
+    "uuid": "^8.3.1"
+  }
+}
