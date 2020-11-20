@@ -4,14 +4,16 @@
 node_modules
 .pnp
 .pnp.js
+keys.js
+log
+logs
 
 # testing
 /coverage
 
 # production
 build
-log
-logs
+
 
 # misc
 .DS_Store

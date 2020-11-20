@@ -1,16 +1,5 @@
 const axios = require('axios').default;
-
-//CONSTANTS
-const CLIENT_ID = 'bjhnx6r1ig8ooaw';
-const CLIENT_SECRET = '4vz7ykm5ln0ny7b';
-const ACCESS_TOKEN = 'Dw6ZBJQBEvsAAAAAAAAAAfuRwUPDkg8dX_5AWFYsE_KNy9suZcrpjZwIHSooE55h';
-const PROPERTY_TEMPLATE_ID = 'ptid:ktmxOWa7VZgAAAAAAAA0lw';
-const KK_PATH = '/Apps/ZephyrMusic/DSMC/Kristheeya Keerthanangal';
-const MARAMON_2017 = '/Apps/ZephyrMusic/DSMC/Maramon 2017';
-const MARAMON_2018 = '/Apps/ZephyrMusic/DSMC/Maramon 2018';
-const MARAMON_2019 = '/Apps/ZephyrMusic/DSMC/Maramon 2019';
-const MARAMON_2020 = '/Apps/ZephyrMusic/DSMC/Maramon 2020';
-const BASE_URL = 'https://api.dropboxapi.com/2';
+const { ACCESS_TOKEN, PROPERTY_TEMPLATE_ID, KK_PATH, MARAMON_2017, MARAMON_2018, MARAMON_2019, MARAMON_2020, BASE_URL } = require('./keys');
 
 //URLs
 const LIST_FOLDER_URL = BASE_URL + '/files/list_folder';
